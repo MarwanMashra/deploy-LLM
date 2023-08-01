@@ -4,3 +4,6 @@ bitsandbytes>=0.39.0
 einops>=0.4.1
 auto-gptq>=0.3.1
 xformers>=0.0.20
+sacrebleu>=2.3.1
+evaluate>=0.4.0
+datasets>=2.14.2
