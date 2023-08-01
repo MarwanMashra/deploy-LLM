@@ -1,6 +1,4 @@
 # from evaluate import EvaluationModule, EvaluationModuleInfo
-import nltk
-from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 import datasets
 import evaluate
 import sacrebleu as scb
