@@ -3,7 +3,6 @@ import datasets
 import evaluate
 import sacrebleu as scb
 
-# https://huggingface.co/spaces/evaluate-metric/sacrebleu/blob/d94719691d29f7adf7151c8b1471de579a78a280/sacrebleu.py
 class MyCustomMetric(evaluate.Metric):
     def _info(self) -> evaluate.MetricInfo:
         return evaluate.MetricInfo(
