@@ -1,4 +1,3 @@
-# from evaluate import EvaluationModule, EvaluationModuleInfo
 import datasets
 import evaluate
 import sacrebleu as scb
